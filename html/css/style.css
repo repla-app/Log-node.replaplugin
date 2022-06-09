@@ -1,0 +1,15 @@
+body {
+  font-family: "Menlo", monospace;
+  background: transparent;
+}
+
+p {
+  margin-bottom: 0;
+  white-space: pre;
+}
+
+@media (prefers-color-scheme: dark) {
+  p {
+    color: white;
+  }
+}

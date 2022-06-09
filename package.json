@@ -1,0 +1,27 @@
+{
+  "name": "repla-node",
+  "version": "0.0.1",
+  "description": "Repla log plugin",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "autocorrect": "prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ttps://github.com/repla-app/Log-node.replaplugin.git"
+  },
+  "author": "Roben Kleene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/repla-app/Log-node.replaplugin/issues"
+  },
+  "homepage": "https://github.com/repla-app/Log-node.replaplugin",
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.4.2",
+    "prettier": "2.1.2"
+  }
+}
